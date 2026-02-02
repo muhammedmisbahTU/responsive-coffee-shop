@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Website | Misbah T U</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,6 +16,7 @@
                 <h2 class="logo-text">☕ Coffee</h2>
             </a>
             <ul class="nav-menu">
+                <button id="menu-close-button" class="fas fa-times"></button>
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -34,7 +36,7 @@
                     <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
-
+            <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
     
@@ -61,7 +63,35 @@
                 </div>
             </div>
         </section>
+
+        <!-- About section --> 
+         <section class="about-section">
+            <div class="section-content">
+                <div class="about-image-wrapper">
+                    <img src="images/about-image.jpg" alt="About" class="about-image">
+                </div>
+                <div class="about-details">
+                    <h2 class="section-title">About Us</h2>
+                    <p class="text">At Coffee House in Berndorf, Germany, we pride
+                        ourselves on being a go-to destination for coffee lovers and
+                        conversation seekers alike. We're dedicated to providing an
+                        exceptional coffee experience in a cozy and inviting atmosphere,
+                        where guests can relax, unwind, and enjoy their time in comfort.
+                    </p>
+                    <div class="social-link-list">
+                        <a href="#" class="social-link"><i class="fa-brands
+                             fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands
+                             fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fa-brands
+                             fa-x-twitter"></i></a>
+                        
+                    </div>
+                </div>
+            </div>
+         </section>
     </main>
 
+    <script src="script.js"></script>
 </body>
 </html>
