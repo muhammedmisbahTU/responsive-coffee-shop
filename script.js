@@ -12,6 +12,11 @@ const swiper = new Swiper('.slider-wrapper', {
   loop: true,
   grabCursor:true,
   spaceBetween:25,
+  speed: 1200,
+  autoplay: {
+    delay: 2000,
+    disableOnInteraction: false,
+  },
 
   // If we need pagination
   pagination: {
