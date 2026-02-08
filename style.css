@@ -566,7 +566,7 @@ header .navbar{
         justify-content: center;
     }
 
-    .hero-section  .hero-details .subtitle :is(.subtitle,.descripiton), 
+    .hero-section  .hero-details :is(.subtitle,.descripiton), 
     .about-section .about-details, .contact-section .contact-form{
         max-width: 100%;
     }
